@@ -1,0 +1,8 @@
+{
+  "name": "@adrianmg/hello-world-package",
+  "version": "1.0.0",
+  "description": "Hello world npm module",
+  "main": "index.js",
+  "author": "Adrian Mato",
+  "license": "MIT"
+}
