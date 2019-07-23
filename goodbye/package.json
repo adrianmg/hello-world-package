@@ -1,6 +1,6 @@
 {
   "name": "@adrianmg/hello-world-goodbye-package",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Goodbye people npm module",
   "main": "index.js",
   "author": "Adrian Mato",
