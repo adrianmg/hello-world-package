@@ -4,5 +4,12 @@
   "description": "Hello world npm module",
   "main": "index.js",
   "author": "Adrian Mato",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adrianmg/hello-world-package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
