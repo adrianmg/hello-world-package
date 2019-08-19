@@ -1,6 +1,6 @@
 {
   "name": "@pluginbakery/pluginbakery.com",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hello world npm module",
   "main": "index.js",
   "author": "Adrian Mato",
