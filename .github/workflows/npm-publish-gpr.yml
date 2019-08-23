@@ -1,6 +1,9 @@
 name: Node.js Package
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   publish-gpr:
@@ -14,4 +17,4 @@ jobs:
           scope: '@adrianmg'
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GPR}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
